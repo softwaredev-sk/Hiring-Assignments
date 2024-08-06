@@ -1,0 +1,78 @@
+.recentOrders {
+  background-color: var(--accentBgColor);
+  flex: 2;
+  border-radius: 10px;
+  min-width: 0;
+}
+
+.recentOrders h3 {
+  padding: 10px;
+  color: var(--textStrongColor);
+}
+
+.ordersContainer {
+  padding: 0 10px 10px 10px;
+  margin: 4px 10px;
+  overflow: auto;
+  overscroll-behavior: auto;
+  font-size: 20px;
+}
+
+.gridRow {
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  min-width: 700px;
+}
+
+.grabbing span {
+  cursor: default !important;
+}
+
+.gridRow:first-child {
+  color: var(--textStrongColor);
+  font-weight: 500;
+}
+
+.gridRow:not(:first-child) {
+  border-top: 1px solid var(--fadedBorder);
+  position: relative;
+}
+
+.gridRow div:not(:first-child) {
+  flex: 1;
+  text-align: left;
+}
+
+.gridRow div:first-child {
+  flex: 2;
+}
+
+.customer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.customer img {
+  width: 40px;
+  height: 40px;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.ordersContainer.grabbing {
+  cursor: grabbing;
+}
+
+@media (max-width: 640px) {
+  .gridRow {
+    min-width: 560px;
+    font-size: 0.75em;
+  }
+}

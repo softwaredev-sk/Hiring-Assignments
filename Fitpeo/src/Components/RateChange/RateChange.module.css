@@ -1,0 +1,41 @@
+.rateChange {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+.rateIncrease {
+  color: var(--rateIncreaseColor);
+}
+
+.rateIncrease::before,
+.rateDecrease::before {
+  content: '\25E3';
+  font-size: 0.75em;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+.rateIncrease::before {
+  transform: rotate(135deg);
+  transform-origin: center;
+}
+
+.rateDecrease::before {
+  transform: rotate(-45deg);
+  transform-origin: top left;
+}
+
+.rateDecrease {
+  color: var(--rateDecreaseColor);
+}
+
+@media (max-width: 960px) {
+  .rateChange {
+    gap: 8px;
+  }
+}

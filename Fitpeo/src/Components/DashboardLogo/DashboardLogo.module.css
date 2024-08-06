@@ -1,0 +1,46 @@
+.container {
+  width: fit-content;
+  transition: scale 0.25s ease-in-out;
+}
+
+.container:active {
+  scale: 1.25;
+}
+
+.leaves {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1px;
+  width: fit-content;
+  background-color: var(--accentBgColor);
+}
+
+.leaves div {
+  padding: 0;
+  background-color: var(--highlightColor);
+  margin: 0 auto;
+  width: 15px;
+  height: 15px;
+  border-radius: 0% 100% 100% 100%;
+}
+
+.leafOne {
+  transform: rotate(-95deg);
+  -webkit-transform: rotate(-95deg);
+}
+
+.leafTwo {
+  transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+}
+
+.leafThree {
+  transform: rotate(-185deg);
+  -webkit-transform: rotate(-185deg);
+}
+
+.leafFour {
+  transform: rotate(-275deg);
+  -webkit-transform: rotate(-275deg);
+}

@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.container input {
+  background-color: var(--accentElementColor);
+  border: 1px solid var(--fadedBorder);
+  border-radius: 4px;
+  padding: 8px 4px 8px 36px;
+  color: var(--textStrongerColor);
+  font-size: 16px;
+}
+.container input:focus {
+  border: 1px solid transparent;
+  outline: 1px solid var(--textFadedColor);
+}
+
+.container input::placeholder {
+  color: var(--textColor);
+  opacity: 1;
+}
+
+.container input::-ms-input-placeholder {
+  color: var(--textStrongColor);
+}
+
+.container svg {
+  font-size: 20px;
+  color: var(--textStrongColor);
+  position: absolute;
+  left: 0;
+  margin: 6px;
+}
+
+@media (max-width: 720px) {
+  .container input {
+    font-size: 14px;
+    padding: 2px 2px 4px 32px;
+    border-radius: 2px;
+  }
+  .container svg {
+    font-size: 16px;
+  }
+}

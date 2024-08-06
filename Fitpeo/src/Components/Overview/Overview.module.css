@@ -1,0 +1,345 @@
+.overview {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  gap: 40px;
+}
+.overviewOrders {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  width: 100%;
+  flex: 2;
+}
+
+.totalOrders,
+.totalDelivered,
+.revenue,
+.totalCancelled {
+  background-color: var(--accentBgColor);
+  padding: 10px;
+  border-radius: 6px;
+  min-width: 0;
+}
+
+.totalOrders p,
+.totalDelivered p,
+.revenue p,
+.totalCancelled p {
+  font-size: 12px;
+  font-weight: bold;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  white-space: wrap;
+  color: var(--textStrongColor);
+}
+
+.totalOrdersIcon,
+.totalDeliveredIcon,
+.revenueIcon,
+.totalCancelledIcon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding: 12px;
+  width: fit-content;
+  aspect-ratio: 1 !important;
+  overflow: hidden;
+  font-size: 24px;
+  position: relative;
+  transition: all 0.25s;
+}
+
+.totalOrdersIcon:active,
+.totalDeliveredIcon:active,
+.revenueIcon:active,
+.totalCancelledIcon:active {
+  scale: 1.1;
+}
+
+.totalOrdersIcon {
+  background-color: var(--totalOrdersIconBgColor);
+}
+
+.totalOrdersIcon svg {
+  color: var(--totalOrdersIconColor);
+  position: relative;
+  z-index: 2;
+}
+
+.totalOrdersIcon::before {
+  content: '';
+  position: absolute;
+  left: 17px;
+  bottom: 15px;
+  width: 14px;
+  height: 8px;
+  background-color: white;
+  z-index: 1 !important;
+}
+
+.totalDeliveredIcon {
+  background-color: var(--totalDeliveredIconBgColor);
+}
+
+.totalDeliveredIcon svg {
+  color: var(--totalDeliveredIconColor);
+}
+
+.totalCancelledIcon {
+  background-color: var(--totalCancelledIconBgColor);
+}
+
+.totalCancelledIcon svg {
+  color: var(--totalCancelledIconColor);
+}
+
+.revenueIcon {
+  background-color: var(--revenueIconBgColor);
+}
+
+.revenueIcon svg {
+  color: var(--revenueIconColor);
+  font-size: 24px;
+}
+
+.totalOrdersIcon::after,
+.totalDeliveredIcon::after,
+.totalCancelledIcon::after {
+  position: absolute;
+  bottom: 6px;
+  right: 8px;
+  width: 8px;
+  height: 8px;
+  aspect-ratio: 1 !important;
+  padding: 2px;
+  font-size: 8px;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+
+.totalOrdersIcon::after {
+  content: '\271A';
+  background-color: rgb(124, 146, 248);
+  border: 1px solid rgb(124, 146, 248);
+}
+
+.totalDeliveredIcon::after {
+  content: '\2714';
+  content: url("data:image/svg+xml,%3Csvg stroke='%23ffffff' fill='%23ffffff' stroke-width='0' viewBox='0 0 256 256' height='0.5em' width='0.5em' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M232.49,80.49l-128,128a12,12,0,0,1-17,0l-56-56a12,12,0,1,1,17-17L96,183,215.51,63.51a12,12,0,0,1,17,17Z'%3E%3C/path%3E%3C/svg%3E");
+  background-color: rgb(104, 227, 190);
+  border: 1px solid rgb(104, 227, 190);
+}
+
+.totalCancelledIcon::after {
+  content: '\2715';
+  background-color: rgb(233, 139, 147);
+  border: 1px solid rgb(233, 139, 147);
+}
+
+.totalOrdersInsight,
+.totalDeliveredInsight,
+.totalCancelledInsight,
+.revenueInsight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.totalOrdersInsight p,
+.totalDeliveredInsight p,
+.totalCancelledInsight p,
+.revenueInsight p {
+  font-size: clamp(18px, 2vw, 32px);
+  margin: 0;
+  font-weight: 700;
+}
+
+.overviewProfit {
+  flex: 1;
+  background-color: var(--accentBgColor);
+  border-radius: 6px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.overviewProfit h3 {
+  margin: 0;
+  font-size: clamp(12px, 1vw, 16px);
+}
+
+.overviewProfitFlexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  gap: 14px;
+  flex: 4;
+}
+
+.overviewProfitFlexbox .profitInfo {
+  font-size: clamp(20px, 3vw, 42px);
+  color: var(--textStrongerColor);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5vw;
+}
+
+.overviewProfitChart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10px;
+  margin: auto;
+  flex: 3;
+  gap: 5px;
+}
+
+.centerText {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.centerText span:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--textStrongColor);
+}
+
+.centerText span:nth-child(2) {
+  font-size: 10px;
+}
+.centerText span:nth-child(3) {
+  font-size: 8px;
+}
+
+.note {
+  font-size: 8px;
+  transition: all 0.25s;
+}
+
+.note:hover {
+  scale: 1.4;
+}
+.note:active {
+  scale: 1.45;
+}
+
+.note::before {
+  content: '*';
+}
+
+.progressChartBg {
+  position: relative;
+  background-color: var(--highlightBgColor);
+  border-radius: 100%;
+  width: 100px;
+  max-width: 90px;
+  height: 100px;
+  max-height: 90px;
+  aspect-ratio: 1;
+  z-index: 10;
+}
+
+.progressChartInnerBg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--accentBgColor);
+
+  border-radius: 100%;
+
+  width: calc(100% - 26px);
+  height: calc(100% - 26px);
+  aspect-ratio: 1;
+  z-index: 11;
+}
+
+@media (max-width: 960px) {
+  .overview {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .overview {
+    gap: 20px;
+  }
+  .overviewOrders {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .overviewProfit {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .overviewProfitFlexbox {
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex: 1;
+  }
+
+  .overviewProfitChart {
+    flex: 1;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .overview {
+    flex-direction: column;
+  }
+
+  .overviewProfit {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .overviewProfitFlexbox {
+    flex: 5;
+  }
+
+  .overviewProfitChart {
+    align-self: flex-end;
+    flex: 4;
+  }
+
+  .note:hover {
+    scale: 1;
+  }
+
+  .note:active {
+    scale: 1.2;
+  }
+}

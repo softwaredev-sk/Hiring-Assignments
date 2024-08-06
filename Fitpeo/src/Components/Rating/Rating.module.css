@@ -1,0 +1,12 @@
+.ratingContainer {
+  display: flex;
+  gap: 4px;
+}
+
+.white svg {
+  color: var(--emptyStarColor);
+}
+
+.yellow svg {
+  color: var(--filledStarColor);
+}

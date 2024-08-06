@@ -1,0 +1,9 @@
+.parallel {
+  display: flex;
+}
+
+@media (max-width: 640px) {
+  .parallel {
+    flex-direction: column;
+  }
+}

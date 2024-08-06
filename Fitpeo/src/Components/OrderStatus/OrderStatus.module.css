@@ -1,0 +1,23 @@
+.status {
+  border-radius: 20px;
+  padding: 4px 16px;
+  text-transform: capitalize;
+  cursor: default;
+  user-select: none;
+  display: inline-block;
+  transition: all 0.25s;
+}
+.status:active {
+  scale: 1.05;
+}
+
+.delivered {
+  background-color: var(--deliveredStatusBgColor);
+  color: var(--deliveredStatusColor);
+}
+
+.cancelled,
+.pending {
+  background-color: var(--cancelledStatusBgColor);
+  color: var(--cancelledStatusColor);
+}

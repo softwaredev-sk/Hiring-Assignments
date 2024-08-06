@@ -1,0 +1,32 @@
+.homepage {
+  margin: 0 30px;
+  margin-bottom: 20px;
+  color: var(--textColor);
+  width: calc(100% - 60px);
+}
+
+.homepage h2 {
+  font-size: clamp(32px, 2vw, 48px);
+  color: var(--textStrongColor);
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  min-width: 0;
+  max-width: calc(100vw - 120px);
+}
+
+@media (max-width: 960px) {
+  .flexbox {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .flexbox {
+    max-width: calc(100vw - 60px);
+  }
+}
