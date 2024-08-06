@@ -168,7 +168,6 @@
 .navSidebar li a:active,
 .vertical .navbar li.logout a:active,
 .navSidebar li.logout a:active {
-  /* scale: 1.1; */
   scale: 0.85;
 }
 
@@ -243,7 +242,6 @@
     flex-direction: row;
     height: 60px;
     width: 100%;
-    /* overflow-y: auto; */
   }
 
   .vertical .navbar {
@@ -257,8 +255,6 @@
   }
 
   .vertical .navbar li {
-    /* width: auto; */
-    /* height: 100%; */
     height: 60px;
   }
 
@@ -345,8 +341,9 @@
     align-items: center;
     gap: 10px;
     transition: all 0.25s;
-    margin: 0;
+    margin: auto 0;
     padding: 0;
+    height: 100lvh;
   }
 
   .navbarMobile:has(.navBtn:checked) .navbarBtn {
