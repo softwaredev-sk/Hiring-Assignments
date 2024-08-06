@@ -168,7 +168,7 @@
   scale: 1.1;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .vertical {
     min-width: 60px;
   }
