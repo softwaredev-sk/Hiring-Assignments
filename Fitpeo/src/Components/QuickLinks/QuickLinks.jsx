@@ -1,6 +1,7 @@
 import ReactIcons from '../ReactIcons.jsx/ReactIcons';
 import classes from './QuickLinks.module.css';
 
+// links data
 const LINKS = [
   {
     name: 'goals',
@@ -22,6 +23,7 @@ const LINKS = [
   },
 ];
 
+//component rendering links details for above data
 export default function QuickLinks() {
   return (
     <aside className={classes.quicklinks}>

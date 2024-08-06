@@ -1,6 +1,7 @@
 import Rating from '../Rating/Rating';
 import classes from './CustomersFeedback.module.css';
 
+// component to display customer feedback section
 export default function CustomersFeedback({ feedback }) {
   return (
     <aside className={classes.feedbackSection}>
@@ -12,7 +13,10 @@ export default function CustomersFeedback({ feedback }) {
             className={classes.feedback}
           >
             <div className={classes.user}>
-              <img src={data.profilePhotoUrl} />
+              <img
+                src={data.profilePhotoUrl}
+                alt={`Profile photo of ${data.customer}`}
+              />
               <span>{data.customer}</span>
             </div>
             <span className={classes.rating}>
@@ -20,7 +24,7 @@ export default function CustomersFeedback({ feedback }) {
             </span>
             <div
               className={classes.review}
-              dangerouslySetInnerHTML={{ __html: data.review }}
+              dangerouslySetInnerHTML={{ __html: data.review }} //used dangerouslySetInnerHTML as one of the comments has anchor tag in its content and it is expected to render as a link in webpage, without compromising on security
             ></div>
           </div>
         ))}

@@ -4,16 +4,25 @@ import ReactIcons from '../ReactIcons.jsx/ReactIcons';
 import SearchBar from '../SearchBar/SearchBar';
 import classes from './Navbar.module.css';
 
+// Sidebar component for navigation in mobile screen. Display set to none for bigger screen (width > 640px). Component not exported as it is used as compound component for navbars
 function NavbarMobile({ options, activeElement, onSelect, notify }) {
   return (
     <div className={classes.navbarMobile}>
       <div className={classes.navbarBtn}>
         <label htmlFor="navBtn">
-          <input id="navBtn" className={classes.navBtn} type="checkbox" />
+          <input
+            id="navBtn"
+            name="navBtn"
+            aria-labelledby="navBtn"
+            className={classes.navBtn}
+            type="checkbox"
+          />
         </label>
       </div>
       <ul className={classes.navSidebar}>
-        <img src="/profile.png" alt="profile" />
+        <li>
+          <img src="/profile.webp" alt="profile" />
+        </li>
         {options.map((option) => (
           <li
             key={option.name}
@@ -43,6 +52,7 @@ function NavbarMobile({ options, activeElement, onSelect, notify }) {
   );
 }
 
+// main navbar component, which is can be used for horizontal as well as vertical bar, by passing horizontal prop as true or false. Default value is true to render as horizontal navbar. Used conditional rendering to render dashboard logo, search bar, profile photo and sidebar navigation menu only when showing horizontal navbar.
 export default function Navbar({ options, horizontal = true }) {
   const [activeElement, setActiveElement] = useState('home');
   const [newNotification] = useState(true);
@@ -86,7 +96,11 @@ export default function Navbar({ options, horizontal = true }) {
               </a>
             </li>
           ))}
-          {horizontal && <img src="/profile.png" alt="profile" />}
+          {horizontal && (
+            <li>
+              <img src="/profile.webp" alt="profile" />
+            </li>
+          )}
         </ul>
         {horizontal && (
           <NavbarMobile

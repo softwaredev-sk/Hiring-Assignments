@@ -3,6 +3,7 @@ import classes from './Overview.module.css';
 import OverviewOrder from './OverviewOrder.jsx';
 import OverviewProfit from './OverviewProfit.jsx';
 
+// component to render overview section, which contains order related informations and net profit information
 export default function Overview({ orders }) {
   const [totals, setTotals] = useState({
     totalOrders: 0,

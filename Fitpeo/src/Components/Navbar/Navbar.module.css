@@ -6,6 +6,7 @@
 
 .container a {
   color: var(--textColor);
+  display: flex;
 }
 
 .container a:visited {
@@ -49,7 +50,7 @@
 }
 
 .navbar li a {
-  display: flex;
+  /* display: flex; */
 }
 
 .vertical .navbar li.active::before {
@@ -70,9 +71,12 @@
 .vertical .navbar li.active svg {
   color: var(--highlightColor);
 }
+.horizontal .navbar li:last-child {
+  margin-left: 15px;
+}
+
 .navbar img {
   width: 50px;
-  margin-left: 15px;
 }
 
 .horizontal {
@@ -110,7 +114,8 @@
 
 .horizontal .navbar li.notify:has(a:active)::before,
 .navSidebar li:has(a:active)::before {
-  scale: 1.1;
+  /* scale: 1.1; */
+  scale: 0.85;
 }
 
 .horizontal .navbar {
@@ -144,13 +149,11 @@
   width: 100%;
 }
 
-.navbarMobile {
-  display: none;
-}
-
 .vertical .navbar li.logout {
   position: fixed;
-  width: 76px;
+  width: 80px;
+  /* width: 100%; */
+  left: 0;
   bottom: 0;
 }
 
@@ -165,7 +168,23 @@
 .navSidebar li a:active,
 .vertical .navbar li.logout a:active,
 .navSidebar li.logout a:active {
-  scale: 1.1;
+  /* scale: 1.1; */
+  scale: 0.85;
+}
+
+.navbarMobile {
+  display: none;
+}
+
+@media (orientation: landscape) and (max-height: 560px) {
+  .vertical {
+    overflow-y: auto;
+    min-width: 86px;
+  }
+  .vertical .navbar li.logout {
+    position: relative;
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -224,11 +243,13 @@
     flex-direction: row;
     height: 60px;
     width: 100%;
+    /* overflow-y: auto; */
   }
 
   .vertical .navbar {
     flex-direction: row;
     justify-content: space-evenly;
+    position: relative;
   }
 
   .horizontal .navbar {
@@ -236,8 +257,9 @@
   }
 
   .vertical .navbar li {
-    width: auto;
-    height: 100%;
+    /* width: auto; */
+    /* height: 100%; */
+    height: 60px;
   }
 
   .vertical .navbar li.active::before {
@@ -249,6 +271,9 @@
     border-left: none;
     border-bottom: 3px solid var(--highlightColor);
     border-radius: 2px;
+    height: 0;
+    top: auto;
+    bottom: 0;
   }
 
   .navbarMobile .navBtn {
@@ -360,8 +385,8 @@
   }
 
   .navSidebar li a {
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
   }
 
   .navSidebar img {

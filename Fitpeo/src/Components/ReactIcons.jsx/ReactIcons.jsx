@@ -26,6 +26,7 @@ import { TbStarFilled } from 'react-icons/tb';
 
 import classes from './ReactIcons.module.css';
 
+// making custom icon which are directly not achievable using after or before pseudo elements or when multiple icons are required to be clubbed together.
 function CustomIcon({ icon }) {
   switch (icon) {
     case 'revenue':
@@ -53,6 +54,7 @@ function CustomIcon({ icon }) {
   }
 }
 
+// component to return required react icon component or custom icon generated above. checks for isActive flag to return another element to show active state
 export default function ReactIcons({ icon, isActive = false }) {
   icon += isActive ? '-active' : '';
   switch (icon) {

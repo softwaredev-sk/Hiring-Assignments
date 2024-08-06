@@ -4,15 +4,16 @@ import classes from './Overview.module.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
+//progress chart using chartjs and react-chartjs-2
 export default function ProgressDonut() {
   const data = {
     datasets: [
       {
-        data: [70, 30], // Represents 70% completion
-        backgroundColor: ['#7692ff', '#00000000'], // Colors for completed and remaining segments
+        data: [70, 30], // It represents two portion for 70% and 30% respectively
+        backgroundColor: ['#7692ff', '#00000000'], // Colors for completed and remaining portion
         borderWidth: 0,
-        borderRadius: 10, // Rounded edges for progress indicator
-        cutout: '72%', // Size of the inner cutout
+        borderRadius: 10, // rounded edges for progress indicator
+        cutout: '72%', // size of the inner circle
         radius: 44,
       },
     ],
@@ -21,11 +22,11 @@ export default function ProgressDonut() {
   const options = {
     plugins: {
       tooltip: {
-        enabled: false, // Disable tooltips
+        enabled: false,
       },
     },
-    rotation: -15, // Start angle
-    circumference: 360, // Full circle to ensure complete coverage
+    rotation: -15, // starting angle
+    circumference: 360, // full circumference to ensure complete circle is shown
   };
 
   return (

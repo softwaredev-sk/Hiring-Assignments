@@ -19,11 +19,13 @@ ChartJS.register(
   Legend
 );
 
+// bar chart using chartjs and react-chartjs-2
 export default function BarChart({ activityData }) {
   const [isMobile, setIsMobile] = useState();
   const highlightColor = 'rgba(112, 149, 255, 1)';
   const fadedBorder = 'rgba(128, 128, 128, 0.25)';
 
+  // use effect hook used to get the window width in order to render canvas responsively as making convas is not supported natively, hence we check for the screen width change and accordingly rerender the chart. isMobile state is also used as a flag to autoskip some labels in chart in smaller (mobile) screen to maintain desired output
   useEffect(() => {
     function handleResize() {
       setIsMobile(window.innerWidth <= 640);

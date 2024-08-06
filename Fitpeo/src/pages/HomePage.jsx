@@ -6,6 +6,7 @@ import QuickLinks from '../Components/QuickLinks/QuickLinks';
 import RecentOrders from '../Components/RecentOrders/RecentOrders';
 import CustomersFeedback from '../Components/CustomersFeedback/CustomersFeedback';
 
+// page component to display home page
 export default function HomePage() {
   const {
     fakeOrders,

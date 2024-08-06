@@ -32,6 +32,7 @@
 .popularDishes:active svg,
 .menus:active svg {
   scale: 1;
+  scale: 0.85;
 }
 
 .goals {

@@ -1,5 +1,6 @@
 import classes from './DashboardLogo.module.css';
 
+// custom logo for dashboard navbar. achieved only usin css.
 export default function DashboardLogo() {
   return (
     <div className={classes.container}>

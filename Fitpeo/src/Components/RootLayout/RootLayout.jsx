@@ -2,6 +2,7 @@ import classes from './RootLayout.module.css';
 import Navbar from '../Navbar/Navbar';
 import { Outlet } from 'react-router-dom';
 
+// data for horizontal navabar
 const HORIZONTAL_NAVBAR_DATA = [
   {
     name: 'messages',
@@ -23,6 +24,7 @@ const HORIZONTAL_NAVBAR_DATA = [
   },
 ];
 
+// data for vertical navabar
 const VERTICAL_NAVBAR_DATA = [
   {
     name: 'home',
@@ -62,6 +64,7 @@ const VERTICAL_NAVBAR_DATA = [
   },
 ];
 
+// component for root layout
 export default function RootLayout() {
   return (
     <>

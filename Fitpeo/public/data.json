@@ -4,7 +4,7 @@
       "orderId": "15478256",
       "orderName": "",
       "customerName": "Wade Warren",
-      "customerImage": "/customerImage01.jpeg",
+      "customerImage": "/customerImage01.webp",
       "orderStatus": "delivered",
       "costPrice": 90,
       "orderValue": 124,
@@ -14,7 +14,7 @@
       "orderId": "48965786",
       "orderName": "",
       "customerName": "Jane Cooper",
-      "customerImage": "/customerImage02.jpeg",
+      "customerImage": "/customerImage02.webp",
       "orderStatus": "delivered",
       "costPrice": 350,
       "orderValue": 365.02,
@@ -34,7 +34,7 @@
       "orderId": "20965732",
       "orderName": "",
       "customerName": "Kristin Watson",
-      "customerImage": "/customerImage04.jpg",
+      "customerImage": "/customerImage04.webp",
       "orderStatus": "pending",
       "costPrice": 45,
       "orderValue": 65,
@@ -44,7 +44,7 @@
       "orderId": "95715620",
       "orderName": "",
       "customerName": "Cody Fisher",
-      "customerImage": "/customerImage05.jpg",
+      "customerImage": "/customerImage05.webp",
       "orderStatus": "delivered",
       "costPrice": 500,
       "orderValue": 545,
@@ -54,7 +54,7 @@
       "orderId": "78514568",
       "orderName": "",
       "customerName": "Savannah Nguyen",
-      "customerImage": "/customerImage06.jpg",
+      "customerImage": "/customerImage06.webp",
       "orderStatus": "delivered",
       "costPrice": 120,
       "orderValue": 128.2,
@@ -64,7 +64,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 4135.75,
       "orderValue": 10772.78
@@ -73,7 +73,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "cancelled",
       "costPrice": 0,
       "orderValue": 0
@@ -82,7 +82,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "cancelled",
       "costPrice": 0,
       "orderValue": 0
@@ -91,7 +91,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "cancelled",
       "costPrice": 0,
       "orderValue": 0
@@ -100,7 +100,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "cancelled",
       "costPrice": 0,
       "orderValue": 0
@@ -109,7 +109,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -118,7 +118,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -127,7 +127,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -136,7 +136,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -145,7 +145,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -154,7 +154,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -163,7 +163,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -172,7 +172,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -181,7 +181,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -190,7 +190,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -199,7 +199,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -208,7 +208,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -217,7 +217,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -226,7 +226,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -235,7 +235,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -244,7 +244,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -253,7 +253,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -262,7 +262,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -271,7 +271,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -280,7 +280,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -289,7 +289,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -298,7 +298,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -307,7 +307,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -316,7 +316,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -325,7 +325,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -334,7 +334,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -343,7 +343,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -352,7 +352,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -361,7 +361,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -370,7 +370,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -379,7 +379,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -388,7 +388,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -397,7 +397,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -406,7 +406,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -415,7 +415,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -424,7 +424,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -433,7 +433,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -442,7 +442,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -451,7 +451,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -460,7 +460,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -469,7 +469,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -478,7 +478,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -487,7 +487,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -496,7 +496,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -505,7 +505,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -514,7 +514,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -523,7 +523,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -532,7 +532,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -541,7 +541,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -550,7 +550,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -559,7 +559,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -568,7 +568,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -577,7 +577,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -586,7 +586,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -595,7 +595,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -604,7 +604,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -613,7 +613,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -622,7 +622,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -631,7 +631,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -640,7 +640,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -649,7 +649,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -658,7 +658,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -667,7 +667,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -676,7 +676,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -685,7 +685,7 @@
       "orderId": "",
       "orderName": "",
       "customerName": "",
-      "customerImage": "/profile.png",
+      "customerImage": "/profile.webp",
       "orderStatus": "delivered",
       "costPrice": 0,
       "orderValue": 0
@@ -702,21 +702,21 @@
     {
       "feedbackId": "01",
       "customer": "Jenny Wilson",
-      "profilePhotoUrl": "/feedbackCustomerImage01.jpg",
+      "profilePhotoUrl": "/feedbackCustomerImage01.webp",
       "stars": 4,
       "review": "The food was excellent and so was the service, I had the mushroom risotto with scallops which was awesome. I had a burger over greens (gluten-free) which was also very good. They were very conscientious about gluten allergies."
     },
     {
       "feedbackId": "02",
       "customer": "Dianne Russell",
-      "profilePhotoUrl": "/feedbackCustomerImage02.jpg",
+      "profilePhotoUrl": "/feedbackCustomerImage02.webp",
       "stars": 5,
       "review": "We enjoyed the Eggs Benedict served on homemade focaccia bread and hot coffee. Perfect service"
     },
     {
       "feedbackId": "03",
       "customer": "Devone Lane",
-      "profilePhotoUrl": "/feedbackCustomerImage03.png",
+      "profilePhotoUrl": "/feedbackCustomerImage03.webp",
       "stars": 4,
       "review": "Normally wings are wings, but theirs are lean meaty and tender and lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus impedit doloremque, eveniet dolorem est, sed fugiat consectetur laborum inventore, ipsum libero suscipit ullam! Recusandae ipsum repellendus maxime tempore dolorem."
     },
@@ -730,7 +730,7 @@
     {
       "feedbackId": "05",
       "customer": "Jr. Lorem Ipsum",
-      "profilePhotoUrl": "/user.png",
+      "profilePhotoUrl": "/user.webp",
       "stars": 2,
       "review": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum accusamus impedit doloremque, eveniet dolorem est, sed fugiat consectetur laborum inventore, ipsum libero suscipit ullam! Recusandae ipsum repellendus maxime tempore dolorem."
     }

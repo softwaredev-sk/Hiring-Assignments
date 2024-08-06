@@ -1,6 +1,7 @@
 import ReactIcons from '../ReactIcons.jsx/ReactIcons';
 import classes from './Rating.module.css';
 
+// component to render rating given by customer in feedback.
 export default function Rating({ rating }) {
   return (
     <div className={classes.ratingContainer}>

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import OrderStatus from '../OrderStatus/OrderStatus';
 import classes from './RecentOrders.module.css';
 
+// component to display recent orders. Event handlers attached to make scrolling possible with mouse click and drag, and with mouse wheel for horizontal scroll
 export default function RecentOrders({ recentOrders }) {
   const sliderRef = useRef();
   const [isMouseDown, setIsMouseDown] = useState(false);
@@ -91,7 +92,10 @@ export default function RecentOrders({ recentOrders }) {
         {recentOrders.map((order) => (
           <div key={order.orderId} className={classes.gridRow}>
             <div className={classes.customer}>
-              <img src={order.customerImage} />
+              <img
+                src={order.customerImage}
+                alt={`Profile photo of ${order.customerName}`}
+              />
               <span>{order.customerName}</span>
             </div>
             <div>

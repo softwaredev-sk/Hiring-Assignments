@@ -2,6 +2,7 @@ import classes from './Overview.module.css';
 import RateChange from '../RateChange/RateChange';
 import ProgressDonut from './ProgressDonut';
 
+// component to render profit overview and displaying the progress donut chart
 export default function OverviewProfit({ totals }) {
   return (
     <div className={classes.overviewProfit}>

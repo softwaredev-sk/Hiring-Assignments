@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import RootLayout from './Components/RootLayout/RootLayout';
 import HomePage from './pages/HomePage';
 
+// loader function to fetch and send data to useLoaderData() hook
 async function loadFakeOrderData() {
   const response = await fetch('/data.json');
   const responseData = await response.json();
@@ -18,6 +19,7 @@ async function loadFakeOrderData() {
   };
 }
 
+// registering routes
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +30,7 @@ const router = createBrowserRouter([
   },
 ]);
 
+// app component with router provider
 function App() {
   return <RouterProvider router={router} />;
 }

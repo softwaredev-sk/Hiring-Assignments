@@ -1,6 +1,7 @@
 import classes from './SearchBar.module.css';
 import ReactIcons from '../ReactIcons.jsx/ReactIcons';
 
+// component for search bar
 export default function SearchBar() {
   return (
     <div className={classes.container}>
