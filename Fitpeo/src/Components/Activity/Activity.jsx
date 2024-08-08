@@ -43,26 +43,8 @@ export default function Activity({ activityData }) {
         <BarChart activityData={activityDataState} />
         {!activityDataState.consistent && (
           // hacky way to achieve the design as per the image as the data provided in design file is not mathematically correct for given data vs x-axis labelling. Used to show manual x-axis label for weekly records, which is shown in design file, whereas daily and monthly shows x-axis label as they are.
-          <div
-            style={{
-              position: 'absolute',
-              bottom: 6,
-              width: '100%',
-              backgroundColor: 'var(--accentBgColor)',
-              height: '1em',
-            }}
-          >
-            <div
-              style={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                maxWidth: 'calc(100% - 50px)',
-                margin: '0 0 0 auto',
-                paddingRight: 10,
-                fontSize: '0.75em',
-                color: 'var(--textFadedColor)',
-              }}
-            >
+          <div className={classes.hackOverlay}>
+            <div className={classes.hackLayer}>
               {[5, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27].map((val) => (
                 <div key={val}>{val}</div>
               ))}

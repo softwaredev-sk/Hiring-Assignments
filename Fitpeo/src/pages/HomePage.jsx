@@ -18,10 +18,7 @@ export default function HomePage() {
   return (
     <main className={classes.homepage}>
       <h2>Dashboard</h2>
-      <div
-        className={classes.grid}
-        style={{ display: 'flex', flexDirection: 'column', gap: 30 }}
-      >
+      <div className={classes.flexGrid}>
         <Overview orders={fakeOrders} prevOrders={fakePreviousOrders} />
         <section className={classes.flexbox}>
           <Activity activityData={fakeActivityData} />

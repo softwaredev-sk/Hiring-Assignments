@@ -55,6 +55,24 @@
   margin: 40px 10px 0 10px;
 }
 
+.hackOverlay {
+  position: absolute;
+  bottom: 6px;
+  width: 100%;
+  background-color: var(--accentBgColor);
+  height: 1em;
+}
+
+.hackLayer {
+  display: flex;
+  justify-content: space-between;
+  max-width: calc(100% - 50px);
+  margin: 0 0 0 auto;
+  padding-right: 10px;
+  font-size: 0.75em;
+  color: var(--textFadedColor);
+}
+
 @media (max-width: 640px) {
   .activityChart {
     aspect-ratio: 20/9;
